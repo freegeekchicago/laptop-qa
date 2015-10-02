@@ -1,0 +1,18 @@
+sud///////////////////////////////////////////////////////
+///   How to Get iSight Cameras Working on Ubuntu   ///
+///////////////////////////////////////////////////////
+
+1. Install the `isight-firmware-tools` package:
+o
+	$ sudo apt-get install isight-firmware-tools
+
+   At the prompt, "Extract firmware from Apple driver?", choose <No>.
+
+2. Copy the AppleUSBVideoSupport file into /lib/firmware (this file
+   is located in the same directory as this README).
+
+3. Run the following command:
+
+	$ sudo ift-extract -a /lib/firmware/AppleUSBVideoSupport
+
+You should be good to go.  :)
