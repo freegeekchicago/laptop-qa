@@ -1,7 +1,7 @@
 #Laptop QA checklist
 
 * Check keyboard – open text editor and check all keys (the quick brown fox jumps over the lazy dog), home, end, pgup, pgdwn, insert, caps, delete, backspace, etc.
-* Set [VLC}(https://www.videolan.org/index.html) as default movie player.
+* Set [VLC](https://www.videolan.org/index.html) as default movie player.
 * Check that dvd and cd both play.
 * Set [Google](https://google.com/) as the start page of the browser.
 * Make sure [Youtube](https://www.youtube.com/) plays in browser.
